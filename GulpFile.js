@@ -21,8 +21,7 @@ gulp.task('sass', function() {
            includePaths: [
              './bower_components/mathsass/dist/',
              './bower_components/madsauce/',
-             './bower_components/'
-
+              './bower_components/'
          ]
        }))
         .pipe(gulp.dest("css"))

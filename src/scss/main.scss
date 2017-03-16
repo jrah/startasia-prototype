@@ -2,8 +2,8 @@
 
 $primary: #84bd00;
 
-@import "madsauce";
-// @import "madsauce-css";
+// @import "madsauce/madsauce-css";
+@import "madsauce/madsauce";
 // modules
 // craft modules
 @import "craftmodule/button";
@@ -12,7 +12,3 @@ $primary: #84bd00;
 
 // partials
 @import "partial/index";
-
-// @for $i from 1 through 9 {
-//   .fw-#{$i}0 { @include fw(#{$i}00); }
-// }
