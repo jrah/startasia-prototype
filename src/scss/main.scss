@@ -13,4 +13,6 @@ $primary: #84bd00;
 // partials
 @import "partial/index";
 
-@import "index";
+// @for $i from 1 through 9 {
+//   .fw-#{$i}0 { @include fw(#{$i}00); }
+// }
