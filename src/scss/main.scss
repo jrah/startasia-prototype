@@ -5,7 +5,11 @@ $primary: #84bd00;
 @import "madsauce";
 // @import "madsauce-css";
 // modules
-@import "modules/index";
+// craft modules
+@import "craftmodule/button";
+@import "craftmodule/form";
+@import "craftmodule/img";
+
 // partials
 @import "partial/index";
 

@@ -18,5 +18,8 @@
   "devDependencies": {
     "mathsass": "^0.9.5",
     "madsauce": "jrah/madsauce"
+  },
+  "dependencies": {
+    "craftmodule": "jrah/craftmodule"
   }
 }
