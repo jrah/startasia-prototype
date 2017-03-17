@@ -1,0 +1,29 @@
+.focus-point {
+
+  &--list {
+    @include flexbox;
+    @include flex-direction(column);
+
+    li {
+      flex: 1;
+    }
+
+    .option {
+      border: 0;
+      color: $black;
+
+      &:hover {
+        color: $primary;
+
+        path {
+          fill: $primary;
+        }
+      }
+    }
+    @include mq($md-screen) {
+      @include flex-direction(row);
+
+    }
+  }
+
+}
