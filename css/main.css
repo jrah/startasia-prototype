@@ -1114,6 +1114,9 @@ pre {
 .c-primary {
   color: #598000; }
 
+.c-muted {
+  color: #5e5e5e; }
+
 .c-alert {
   color: #d14445; }
 
@@ -1170,8 +1173,8 @@ pre {
   background-color: #8c8c8c; }
 
 .bg-blue {
-  background-color: #84bd00;
-  background-color: #84bd00; }
+  background-color: #2a93fc;
+  background-color: #2a93fc; }
 
 .bg-red {
   background-color: #d14445;
@@ -1403,9 +1406,6 @@ pre {
 .footer-nav li {
   display: inline-block; }
 
-.three-point .wave {
-  width: 100vw; }
-
 .three-point--list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1419,7 +1419,14 @@ pre {
   -ms-flex-direction: column;
   flex-direction: column; }
   .three-point--list li {
-    z-index: 1; }
+    flex: 1; }
+  .three-point--list .option {
+    border: 0;
+    color: #000000; }
+    .three-point--list .option:hover {
+      color: #84bd00; }
+      .three-point--list .option:hover path {
+        fill: #84bd00; }
   @media screen and (min-width: 48em) {
     .three-point--list {
       -webkit-box-direction: normal;
@@ -1431,3 +1438,20 @@ pre {
 
 .subscribe {
   background-color: #84bd00; }
+
+.options {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
