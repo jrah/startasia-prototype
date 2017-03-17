@@ -1,15 +1,8 @@
 .three-point {
 
-  .wave {
-    width:100vw;
-  }
   &--list {
     @include flexbox;
     @include flex-direction(column);
-    li {
-      z-index: 1;
-    }
-
     @include mq($md-screen) {
       @include flex-direction(row);
 
