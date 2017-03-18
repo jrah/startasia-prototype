@@ -1,11 +1,9 @@
 .splash {
-  min-height: 4rem;
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
+  text-align: center;
+  padding: 1em;
 
-  @include mq($md-screen) {
-    background-position: center;
-    min-height: 16rem;
+  &--heading {
+    display: inline-block;
+    max-width: 48rem;
   }
 }

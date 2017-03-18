@@ -1,12 +1,14 @@
 .intro {
+  @include mq($sm-screen) {
+    background-position: center 20%;
+  }
+
+  @include mq($md-screen) {
+    min-height: 12em;
+    background-position: center 40%;
+  }
+
   min-height: 4rem;
   background-size: cover;
   background-repeat: no-repeat;
-  @include flexbox;
-  @include justify-content(center);
-  @include align-items(center);
-
-  @include mq($md-screen) {
-    min-height: 14em;
-  }
 }
