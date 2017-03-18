@@ -1,13 +1,11 @@
 .splash {
-  background-color: $black;
-  color: $white;
-  min-height: 12rem;
+  min-height: 4rem;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
 
   @include mq($md-screen) {
     background-position: center;
-    min-height: 24rem;
+    min-height: 16rem;
   }
 }
