@@ -53,6 +53,375 @@ label {
 .img--circle {
   border-radius: 50%; }
 
+.grid-1-12 {
+  width: 6.77966%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-2-12 {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-3-12 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-4-12 {
+  width: 32.20339%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-5-12 {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-6-12 {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-7-12 {
+  width: 57.62712%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-8-12 {
+  width: 66.10169%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-9-12 {
+  width: 74.57627%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-10-12 {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-11-12 {
+  width: 91.52542%;
+  float: left;
+  margin-right: 1.69492%; }
+
+.grid-12-12 {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0; }
+
+@media screen and (min-width: 35.5em) {
+  .grid-1-12-sm {
+    width: 6.77966%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-1-12-md {
+    width: 6.77966%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-1-12-lg {
+    width: 6.77966%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-1-12-xl {
+    width: 6.77966%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-2-12-sm {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-2-12-md {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-2-12-lg {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-2-12-xl {
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-3-12-sm {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-3-12-md {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-3-12-lg {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-3-12-xl {
+    width: 23.72881%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-4-12-sm {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-4-12-md {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-4-12-lg {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-4-12-xl {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-5-12-sm {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-5-12-md {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-5-12-lg {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-5-12-xl {
+    width: 40.67797%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-6-12-sm {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-6-12-md {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-6-12-lg {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-6-12-xl {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-7-12-sm {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-7-12-md {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-7-12-lg {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-7-12-xl {
+    width: 57.62712%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-8-12-sm {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-8-12-md {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-8-12-lg {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-8-12-xl {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-9-12-sm {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-9-12-md {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-9-12-lg {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-9-12-xl {
+    width: 74.57627%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-10-12-sm {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-10-12-md {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-10-12-lg {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-10-12-xl {
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-11-12-sm {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 48em) {
+  .grid-11-12-md {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 64em) {
+  .grid-11-12-lg {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 80em) {
+  .grid-11-12-xl {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%; } }
+
+@media screen and (min-width: 35.5em) {
+  .grid-12-12-sm {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (min-width: 48em) {
+  .grid-12-12-md {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (min-width: 64em) {
+  .grid-12-12-lg {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (min-width: 80em) {
+  .grid-12-12-xl {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; } }
+
+.grid-container {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+  .grid-container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.grid-omega {
+  float: right;
+  margin-right: 0; }
+
+.grid-break {
+  clear: both; }
+
 
 .hidden,
 [hidden] {
@@ -1573,3 +1942,12 @@ pre {
   .splash--heading {
     display: inline-block;
     max-width: 48rem; }
+
+.cover {
+  height: 100vh;
+  background-size: cover;
+  box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.4) inset; }
+  .cover--bottom {
+    background-position: center bottom; }
+  .cover--top {
+    background-position: center top; }
