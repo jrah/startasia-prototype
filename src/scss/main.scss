@@ -7,11 +7,13 @@ $primary: #84bd00;
 $anchor-color: $primary;
 
 @import "madsauce/madsauce";
+@import "susy/sass/susy";
 // modules
 // craft modules
 @import "craftmodule/button";
 @import "craftmodule/form";
 @import "craftmodule/img";
+@import "craftmodule/susy";
 
 @import "madsauce/css/index";
 @import "madsauce/css/flex";

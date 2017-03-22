@@ -20,6 +20,7 @@
     "madsauce": "jrah/madsauce"
   },
   "dependencies": {
-    "craftmodule": "jrah/craftmodule"
+    "craftmodule": "jrah/craftmodule",
+    "susy": "^2.2.12"
   }
 }

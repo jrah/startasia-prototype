@@ -19,9 +19,9 @@ gulp.task('sass', function() {
      gulp.src("src/scss/*.scss")
          .pipe(sass({
            includePaths: [
-             './bower_components/mathsass/dist/',
-             './bower_components/madsauce/',
-              './bower_components/'
+            './bower_components/mathsass/dist/',
+            './bower_components/madsauce/',
+            './bower_components/'
          ]
        }))
         .pipe(gulp.dest("css"))
