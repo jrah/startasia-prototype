@@ -1,3 +1,31 @@
 .header {
-  
+  &--menu {
+    @include mq($md-screen) {
+      display: block;
+    }
+    display: none;
+
+    &.open {
+      display: block;
+    }
+  }
+
+  &--item {
+    @include mq($md-screen) {
+      display: inline-block;
+      margin: 0 .25rem;
+    }
+    display: block;
+  }
+
+  &--menu-toggle {
+    @include flexbox;
+    @include justify-content(flex-end);
+
+    @include mq($md-screen) {
+      display: none;
+    }
+
+  }
+
 }
