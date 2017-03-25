@@ -28,6 +28,7 @@ gulp.task('sass', function() {
             './bower_components/'
          ]
        }))
+       .pipe(sourcemaps.init())
         .pipe(gulp.dest("css"))
         .pipe(browserSync.stream());
 });
