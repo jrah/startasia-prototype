@@ -29,6 +29,7 @@ gulp.task('sass', function() {
          ]
        }))
        .pipe(sourcemaps.init())
+       .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest("css"))
         .pipe(browserSync.stream());
 });
