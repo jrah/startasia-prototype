@@ -38,7 +38,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('copy-build', () => gulp
-  .src('*.html')
+  .src(['*.html', 'images/')
   .pipe(gulp.dest('dist')));
 
 gulp.task('sass-build', function() {
