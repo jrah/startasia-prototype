@@ -2,10 +2,12 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 // sass
 var sass        = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 // js
 var pump = require('pump');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
+
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
 
@@ -30,6 +32,7 @@ gulp.task('sass', function() {
        }))
        .pipe(sourcemaps.init())
        .pipe(sass().on('error', sass.logError))
+       .pipe(sourcemaps.write())
         .pipe(gulp.dest("css"))
         .pipe(browserSync.stream());
 });
@@ -47,6 +50,7 @@ gulp.task('sass-build', function() {
             './bower_components/'
          ]
        }))
+        .pipe(sass({outputstyle: 'compressed'}))
         .pipe(gulp.dest("dist/css"))
 });
 
