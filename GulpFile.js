@@ -50,7 +50,7 @@ gulp.task('sass-build', function() {
             './bower_components/'
          ]
        }))
-        .pipe(sass({outputstyle: 'compressed'}))
+        .pipe(sass({outputStyle: 'compressed'}))
         .pipe(gulp.dest("dist/css"))
 });
 
