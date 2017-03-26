@@ -37,9 +37,12 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
-gulp.task('copy-build', () => gulp
-  .src(['*.html', 'images/')
-  .pipe(gulp.dest('dist')));
+gulp.task('copy-build', function() {
+        gulp.src('*.html')
+        .pipe(gulp.dest('dist'))
+        gulp.src(['images/*.svg', 'images/*.jpg'])
+        .pipe(gulp.dest('dist/images'))
+});
 
 gulp.task('sass-build', function() {
      gulp.src("src/scss/*.scss")
