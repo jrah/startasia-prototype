@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="232px" viewBox="0 0 256 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle-1" fill="#EE5B5B" x="0" y="0" width="256" height="232" rx="8"></rect>
+            <text id="Start" font-family="OpenSans-Bold, Open Sans" font-size="72" font-weight="bold" line-spacing="69" fill="#FFFFFF">
+                <tspan x="48" y="113">S</tspan>
+                <tspan x="92.6484375" y="114.511719" font-family="OpenSans, Open Sans" font-weight="normal">tart</tspan>
+                <tspan x="48" y="182" line-spacing="66">A</tspan>
+                <tspan x="102.667969" y="183.511719" font-family="OpenSans, Open Sans" font-weight="normal" line-spacing="66">sia</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
