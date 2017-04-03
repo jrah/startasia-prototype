@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="256px" height="232px" viewBox="0 0 256 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="257px" height="232px" viewBox="0 0 257 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
+    <title>logo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group">
-            <rect id="Rectangle-1" fill="#EE5B5B" x="0" y="0" width="256" height="232" rx="8"></rect>
-            <text id="Start" font-family="OpenSans-Bold, Open Sans" font-size="72" font-weight="bold" line-spacing="69" fill="#FFFFFF">
-                <tspan x="48" y="113">S</tspan>
-                <tspan x="92.6484375" y="114.511719" font-family="OpenSans, Open Sans" font-weight="normal">tart</tspan>
-                <tspan x="48" y="182" line-spacing="66">A</tspan>
-                <tspan x="102.667969" y="183.511719" font-family="OpenSans, Open Sans" font-weight="normal" line-spacing="66">sia</tspan>
-            </text>
+        <g id="logo">
+            <g id="Page-1">
+                <g id="logo">
+                    <g id="Page-1">
+                        <g id="Group">
+                            <path d="M-1.95399252e-14,2.66453526e-15 L7.99544162,2.66453526e-15 L256,2.66453526e-15 C256.245434,2.66453526e-15 256.042067,187.027398 256.042067,187.027398 C256.018834,211.86508 235.850075,232 210.999619,232 L-1.95399252e-14,232 L-1.95399252e-14,2.66453526e-15 L-1.95399252e-14,2.66453526e-15 Z" id="Rectangle-1" fill="#EE5B5B"></path>
+                            <text id="S" fill="#FFFFFF" font-family="Helvetica" font-size="72" font-weight="normal">
+                                <tspan x="48" y="113">S</tspan>
+                            </text>
+                            <text id="tart" fill="#FFFFFF" font-family="Helvetica" font-size="72" font-weight="normal">
+                                <tspan x="92.6484375" y="114.511719">tart</tspan>
+                            </text>
+                            <text id="A" fill="#FFFFFF" font-family="Helvetica" font-size="72" font-weight="normal">
+                                <tspan x="48" y="182">A</tspan>
+                            </text>
+                            <text id="sia" fill="#FFFFFF" font-family="Helvetica" font-size="72" font-weight="normal">
+                                <tspan x="93" y="182">sia</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
         </g>
     </g>
 </svg>
