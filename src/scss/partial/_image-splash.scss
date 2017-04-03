@@ -1,11 +1,12 @@
 .image-splash {
-  min-height: 4rem;
+  min-height: 12rem;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
 
-  @include mq($md-screen) {
-    background-position: center;
-    min-height: 16rem;
+  // apply inside of `.image-splash` div
+  &--tint {
+    @include bg-color($black, $black, 0.5);
+    min-height: 12rem;
   }
 }
