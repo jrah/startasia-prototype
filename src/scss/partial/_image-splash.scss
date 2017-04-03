@@ -4,6 +4,14 @@
   background-position: bottom;
   background-repeat: no-repeat;
 
+  &--extended {
+    // not compatible with image tint
+    min-height: 18rem;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    }
+
   // apply inside of `.image-splash` div
   &--tint {
     @include bg-color($black, $black, 0.5);
