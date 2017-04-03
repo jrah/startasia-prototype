@@ -1,6 +1,6 @@
 // project var
 
-$primary: #84bd00;
+$primary: #EE5B5B;
 
 // madsauce var
 
@@ -15,6 +15,7 @@ $anchor-visited: $primary;
 @import "craftmodule/form";
 @import "craftmodule/img";
 @import "craftmodule/susy";
+@import "craftmodule/notice";
 
 @import "madsauce/css/index";
 @import "madsauce/css/flex";
