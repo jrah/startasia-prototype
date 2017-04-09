@@ -19,8 +19,8 @@
   }
 
   &--menu-toggle {
-    @include flexbox;
-    @include justify-content(flex-end);
+    // @include flexbox;
+    // @include justify-content(flex-end);
 
     @include mq(md) {
       display: none;
