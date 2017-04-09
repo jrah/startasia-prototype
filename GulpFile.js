@@ -41,6 +41,7 @@ gulp.task('copy-build', function() {
         gulp.src('*.html')
         .pipe(gulp.dest('dist'))
         gulp.src(['images/*.svg', 'images/*.jpg'])
+        .pipe(imagemin())
         .pipe(gulp.dest('dist/images'))
 });
 
