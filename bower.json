@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "craftmodule": "jrah/craftmodule",
-    "susy": "^2.2.12"
+    "susy": "^2.2.12",
+    "tachyons-sass": "^4.7.1"
   }
 }
