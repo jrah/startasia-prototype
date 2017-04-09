@@ -1,9 +1,9 @@
 .intro {
-  @include mq($sm-screen) {
+  @include mq(sm) {
     background-position: center 20%;
   }
 
-  @include mq($md-screen) {
+  @include mq(md) {
     min-height: 12em;
     background-position: center 40%;
   }

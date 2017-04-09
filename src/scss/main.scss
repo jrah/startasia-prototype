@@ -1,25 +1,14 @@
 // project var
 
-$primary: #EE5B5B;
+$primary: #ee5b5b;
 
-// madsauce var
-
-$anchor-color: $primary;
-$anchor-visited: $primary;
-
-@import "madsauce/madsauce";
 @import "susy/sass/susy";
 // modules
 // craft modules
-@import "craftmodule/button";
-@import "craftmodule/form";
-@import "craftmodule/img";
-@import "craftmodule/susy";
-@import "craftmodule/notice";
+@import "craftmodule/index";
 
-@import "madsauce/css/index";
-@import "madsauce/css/flex";
-
+// tachyons
+@import "tachyons-sass/tachyons";
 
 // partials
 @import "partial/index";
