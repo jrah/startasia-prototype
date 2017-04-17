@@ -50,7 +50,7 @@ gulp.task('sass-build', function() {
          .pipe(sass({
            includePaths: [
             './bower_components/mathsass/dist/',
-            './bower_components/madsauce/',
+            './bower_components/',
             './bower_components/'
          ]
        }))
