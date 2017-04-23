@@ -3,6 +3,10 @@
 $primary: #ee5b5b;
 
 @import "susy/sass/susy";
+
+body {
+  @include show-grid(overlay);
+}
 // modules
 // craft modules
 @import "craftmodule/index";
@@ -12,3 +16,19 @@ $primary: #ee5b5b;
 
 // partials
 @import "partial/index";
+
+
+.card {
+ &-item {
+   width: span(3);
+   margin-top: gutter();
+ }
+
+ &-gutter {
+   width: gutter();
+ }
+
+ &-column {
+   width: span(3);
+ }
+}

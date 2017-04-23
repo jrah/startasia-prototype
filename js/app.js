@@ -1,7 +1,8 @@
-/* global document:true*/
-const menuToggle = document.querySelector('#menu-toggle');
-const menu = document.querySelector('.header--menu');
-
-menuToggle.addEventListener('click', function () {
-  menu.classList.toggle('open');
+var elem = document.querySelector('.card');
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.card-item',
+  columnWidth: '.card-column',
+  gutter: '.card-gutter',
+  // percentPosition: true
 });
