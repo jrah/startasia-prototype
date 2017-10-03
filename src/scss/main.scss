@@ -1,34 +1,23 @@
 // project var
 
-$primary: #ee5b5b;
+@import "init";
 
-@import "susy/sass/susy";
+$color-primary: #ee5b5b;
 
-body {
-  @include show-grid(overlay);
+
+.bg-primary {
+  background-color: $color-primary;
 }
-// modules
-// craft modules
-@import "craftmodule/index";
+
+.primary {
+  color: $color-primary;
+}
+
+.b--primary {
+  border-color: $color-primary;
+}
 
 // tachyons
-@import "tachyons-sass/tachyons";
 
 // partials
 @import "partial/index";
-
-
-.card {
- &-item {
-   width: span(3);
-   margin-top: gutter();
- }
-
- &-gutter {
-   width: gutter();
- }
-
- &-column {
-   width: span(3);
- }
-}

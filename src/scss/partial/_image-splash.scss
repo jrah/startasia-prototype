@@ -14,7 +14,7 @@
 
   // apply inside of `.image-splash` div
   &--tint {
-    @include bg-color($black, $black, 0.5);
+    background-image: linear-gradient(rgba($black, 0.5), rgba($black, 0.6));
     min-height: 14rem;
   }
 }
